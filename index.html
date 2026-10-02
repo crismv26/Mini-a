@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hay algo que quiero decirte...</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+
+    <!-- PANTALLA 1 -->
+    <section id="inicio" class="screen active">
+      <div class="top-title">Hay algo que quiero decirte...</div>
+
+      <div class="photo-card">
+        <!-- Reemplaza foto.jpg por tu foto -->
+        <img src="foto.jpg" alt="Nuestra foto">
+        <div class="photo-caption"><span id="nombre1">Miriel</span> &amp; <span id="nombre2">Cristhian</span></div>
+      </div>
+
+      <div class="ornament">〰</div>
+
+      <div class="discover-card">
+        <button id="descubrir" class="heart-button">Descúbrelo</button>
+        <p>♥ Hay algo dentro para ti mi niña ♥</p>
+      </div>
+    </section>
+
+    <!-- PANTALLA 2 -->
+    <section id="carta" class="screen">
+      <div class="ornament">〰</div>
+
+      <article class="letter">
+        <div class="quote">“</div>
+        <p class="saludo">Para ti Mi Niña</p>
+
+        <p>
+          Hay algo que todavía no te he confesado.
+          Algo que mis ojos llevan tiempo intentando decirte cada vez que te miran,
+          aunque mis palabras nunca hayan sabido cómo hacerlo.
+        </p>
+
+        <p>
+          Porque contigo pasó algo diferente. Sin pedir permiso, te fuiste
+          colando en mis pensamientos y en mis mejores días. Y entonces entendí
+          que, desde el mismo día en que te vi, había una pregunta que no dejaba
+          de rondarme la cabeza.
+Quiero compartir contigo cada risa, cada momento y cada latido de mi corazón. ¿Aceptas ser mi compañera en esta aventura llamada amor?
+        </p>
+
+        <p>Y hoy, por fin, quiero hacértela...</p>
+
+        <p class="firma">— Con cariño</p>
+
+        <h1>¿Quieres ser mi novia?</h1>
+
+        <div class="answer-buttons">
+          <button id="aceptar" class="yes-button">Sí, quiero ♥</button>
+          <button id="rechazar" class="no-button" type="button">No</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- PANTALLA 3 -->
+    <section id="final" class="screen">
+      <div class="final-card">
+        <div class="big-heart">♥</div>
+        <h1>Sabía que dirías que sí ❤️</h1>
+        <p>Ahora empieza una historia todavía más bonita.</p>
+        <p class="small">Gracias por estar y juntos lograremos todo.</p>
+        <button id="volver" class="secondary-button">Volver a verlo</button>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="hearts"></div>
+  <script src="script.js"></script>
+</body>
+</html>
